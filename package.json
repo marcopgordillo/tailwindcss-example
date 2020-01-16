@@ -5,17 +5,16 @@
     "production": "cross-env NODE_ENV=production postcss public/tailwind.css -o public/build/tailwind.css",
     "start": "npm run serve"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^1.2.0",
+    "autoprefixer": "^9.7.4",
     "concurrently": "^4.1.0",
     "cross-env": "^5.2.0",
     "cssnano": "^4.1.10",
     "live-server": "^1.2.1",
-    "postcss-cli": "^6.1.2",
-    "autoprefixer": "9.7.4",
-    "tailwindcss": "^1.0"
+    "postcss-cli": "^6.1.3",
+    "tailwindcss": "1.1.4"
   },
   "keywords": [],
   "name": "tailwind-css-playground",
