@@ -11,7 +11,51 @@
     <link rel="stylesheet" href="/build/tailwind.css" />
     <title>Welcome to Tailwind!</title>
   </head>
-  <body>
-    <h1 class="text-4xl font-bold text-center text-blue-500">Hello World!</h1>
+  <body class="bg-gray-300">
+    <div class="bg-gray-100 flex">
+      <div
+        class="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:max-w-full lg:w-1/2 lg:py-24 lg:px-12"
+      >
+        <div class="xl:max-w-lg xl:ml-auto">
+          <img
+            class="h-10"
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Meo_logo.svg/799px-Meo_logo.svg.png"
+            alt="Logo"
+          />
+          <img
+            class="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full sm:object-cover sm:object-center lg:hidden"
+            src="https://image.shutterstock.com/z/stock-photo-senior-man-working-on-his-laptop-lying-on-deck-chair-on-the-beach-during-sunset-736958407.jpg"
+            alt="Working on beach"
+          />
+          <h1
+            class="mt-6 text-2xl font-bold text-gray-900 leading-tight sm:mt-8 sm:text-4xl lg:text-3xl xl:text-4xl"
+          >
+            You can workfrom anywhere.
+            <br class="hidden lg:inline" /><span class="text-indigo-500"
+              >Take advantageof it.</span
+            >
+          </h1>
+          <p class="mt-2 text-gray-600 sm:mt-4 sm:text-xl">
+            Workcation helps you to find work-friendly rentals in beautiful
+            locations so you can enjoy some nice weather even when you're not on
+            vacation.
+          </p>
+          <div class="mt-4 sm:mt-6">
+            <a
+              class="inline-block px-5 py-3 rounded-lg shadow-lg bg-indigo-500 text-sm text-white uppercase tracking-wider font-semibold sm:text-base"
+              href="#"
+              >Book your scape</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="hidden lg:block lg:w-1/2 lg:relative">
+        <img
+          class="absolute inset-0 h-full w-full object-center object-cover"
+          src="https://image.shutterstock.com/z/stock-photo-senior-man-working-on-his-laptop-lying-on-deck-chair-on-the-beach-during-sunset-736958407.jpg"
+          alt="Working on beach"
+        />
+      </div>
+    </div>
   </body>
 </html>
